@@ -72,16 +72,16 @@ If not using Makefile, compile manually with:
 ### **Data File Formats**
 1. Patient Data (patientData.txt):
    ```
-   10001|Fluffy|CELL|1234567890
-   10002|Buddy|HOME|0987654321
+   1024|Shaggy Yanson|CELL|3048005191
+   1032|Pugsley Yanson|CELL|3048005191
    ```
-   - **Format**:PatientNumber | Name | ContactDescription | PhoneNumber
+   - **Format**: PatientNumber | Name | ContactDescription | PhoneNumber
 2. Appointment Data (appointmentData.txt):
    ```
-   10001,2024,10,22,10,30
-   10002,2024,10,23,11,00
+   1040,2024,2,29,13,0
+   1112,2027,3,12,13,0
    ```
-   - **Format**:PatientNumber, Year, Month, Day, Hour, Minute
+   - **Format**: PatientNumber, Year, Month, Day, Hour, Minute
 
 ### **Usage Instructions**
 1. After launching the system, you will see the main menu:
@@ -109,7 +109,7 @@ If not using Makefile, compile manually with:
 - Develop a web-based or GUI version of the system.
 
 ### **Contact**
-For questions or suggestions, feel free to contact:
+For questions or suggestions, feel free to contact:  
 Email: gwhuang24@gmail.com
 
 ### **Conclusion**
