@@ -61,3 +61,56 @@ Veterinary-Clinic-Management-System/
    ```bash
    make clean
    ```
+
+### **Manual Compilation:**
+If not using Makefile, compile manually with:
+   ```bash
+   gcc src/a1ms3.c src/clinic.c src/core.c -o bin/clinic_system
+   ./bin/clinic_system
+   ```
+
+### **Data File Formats**
+1. Patient Data (patientData.txt):
+   ```
+   10001|Fluffy|CELL|1234567890
+   10002|Buddy|HOME|0987654321
+   ```
+   - **Format**:PatientNumber | Name | ContactDescription | PhoneNumber
+2. Appointment Data (appointmentData.txt):
+   ```
+   10001,2024,10,22,10,30
+   10002,2024,10,23,11,00
+   ```
+   - **Format**:PatientNumber, Year, Month, Day, Hour, Minute
+
+### **Usage Instructions**
+1. After launching the system, you will see the main menu:
+   ```
+   Veterinary Clinic System
+   =========================
+   1) PATIENT     Management
+   2) APPOINTMENT Management
+   -------------------------
+   0) Exit System
+   -------------------------
+   Selection:
+   ```
+2. Use the menu options to manage patients and appointments.
+
+### **FAQ**
+1. How to Avoid Appointment Conflicts?
+   - The system checks for time conflicts when adding appointments to prevent overlapping bookings.
+2. Unable to Load Patient or Appointment Data?
+   - Make sure that patientData.txt and appointmentData.txt exist in the data/ directory and follow the correct format.
+   
+### **Future Plans**
+- Add appointment reminder functionality.
+- Improve the user interface with more interactive features.
+- Develop a web-based or GUI version of the system.
+
+### **Contact**
+For questions or suggestions, feel free to contact:
+Email: gwhuang24@gmail.com
+
+### **Conclusion**
+Thank you for using the Veterinary Clinic Management System! We hope this system helps you effectively manage patient records and clinic appointments. If you have any feedback or suggestions, please don’t hesitate to reach out.
