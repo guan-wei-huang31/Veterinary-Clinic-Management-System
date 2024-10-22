@@ -20,7 +20,19 @@ This project is a **veterinary clinic management system** developed in **C langu
 
 ## **Directory Structure**
 ```
-Veterinary-Clinic-Management-System/ │ ├── src/ # Source code files │ ├── a1ms3.c # Main program entry point │ ├── clinic.c # Clinic management implementation │ ├── core.c # Core functions implementation │ ├── clinic.h # Clinic function declarations │ └── core.h # Core function declarations │ ├── data/ # Data files │ ├── patientData.txt # Patient data file │ └── appointmentData.txt # Appointment data file │ ├── Makefile # Build instructions ├── README.md # Project documentation (this file) ├── .gitignore # Git ignore rules └── docs/ # Documentation and additional resources (optional)
+Veterinary-Clinic-Management-System/ 
+│ ├── src/                    # Source code files 
+│    ├── a1ms3.c              # Main program entry point 
+│    ├── clinic.c             # Clinic management implementation 
+│    ├── core.c               # Core functions implementation 
+│    ├── clinic.h             # Clinic function declarations 
+│    └── core.h               # Core function declarations 
+│ ├── data/                   # Data files 
+│    ├── patientData.txt      # Patient data file 
+│    └── appointmentData.txt  # Appointment data file 
+├── Makefile                  # Build instructions 
+├── README.md                 # Project documentation (this file) 
+└── .gitignore                # Git ignore rules 
 ```
 
 
@@ -40,7 +52,7 @@ Veterinary-Clinic-Management-System/ │ ├── src/ # Source code files │ 
 2. Run:
    ```bash
    make
-  ```
+   ```
 3. Execute the system:
    ```bash
    make run
