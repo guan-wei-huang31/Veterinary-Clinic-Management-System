@@ -22,7 +22,7 @@ This project is a **veterinary clinic management system** developed in **C langu
 ```
 Veterinary-Clinic-Management-System/ 
 │ ├── src/                    # Source code files 
-│    ├── a1ms3.c              # Main program entry point 
+│    ├── main.c              # Main program entry point 
 │    ├── clinic.c             # Clinic management implementation 
 │    ├── core.c               # Core functions implementation 
 │    ├── clinic.h             # Clinic function declarations 
@@ -65,7 +65,7 @@ Veterinary-Clinic-Management-System/
 ### **Manual Compilation:**
 If not using Makefile, compile manually with:
    ```bash
-   gcc src/a1ms3.c src/clinic.c src/core.c -o bin/clinic_system
+   gcc src/main.c src/clinic.c src/core.c -o bin/clinic_system
    ./bin/clinic_system
    ```
 

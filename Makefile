@@ -11,7 +11,7 @@ BIN_DIR = bin
 TARGET = $(BIN_DIR)/clinic_system
 
 # Source and object files
-SRCS = $(SRC_DIR)/a1ms3.c $(SRC_DIR)/clinic.c $(SRC_DIR)/core.c
+SRCS = $(SRC_DIR)/main.c $(SRC_DIR)/clinic.c $(SRC_DIR)/core.c
 OBJS = $(SRCS:.c=.o)
 
 # Header files
